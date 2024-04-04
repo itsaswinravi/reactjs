@@ -8,6 +8,7 @@ import LoadMoreData from './components/load-more-data';
 import TreeView from './components/tree-views';
 import menus from "./components/tree-views/data"
 import QRCodeGenerator from './components/qr-code-generator';
+import LightDarkMode from './components/light-dark-mode';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} page={'1'} limit={"4"}/> */}
       {/* <LoadMoreData /> */}
       {/* <TreeView menus={menus} /> */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+      <LightDarkMode />
     </div>
   );
 }
