@@ -11,6 +11,10 @@ import QRCodeGenerator from './components/qr-code-generator';
 import LightDarkMode from './components/light-dark-mode';
 import ScrollIndicator from './components/scroll-indicator';
 import TabTest from './components/custom-tabs/tab-test';
+import ModalTest from './components/custom-modal popup/modal-test';
+import GithubProfileFinder from './components/github-profile-finder';
+import Suggestions from './components/search-autocomplete-with-api/suggestions';
+import TicTacToe from './components/tic-tact-toe';
 
 function App() {
   return (
@@ -26,8 +30,12 @@ function App() {
       {/* <TreeView menus={menus} /> */}
       {/* <QRCodeGenerator /> */}
       {/* <LightDarkMode /> */}
-      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
-      <TabTest />
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <TabTest /> */}
+      {/* <ModalTest /> */}
+      {/* <GithubProfileFinder/>  */}
+      {/* <Suggestions/> */}
+      {/* <TicTacToe /> */}
     </div>
   );
 }
