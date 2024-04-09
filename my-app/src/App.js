@@ -15,6 +15,8 @@ import ModalTest from './components/custom-modal popup/modal-test';
 import GithubProfileFinder from './components/github-profile-finder';
 import Suggestions from './components/search-autocomplete-with-api/suggestions';
 import TicTacToe from './components/tic-tact-toe';
+import FeatureFlagGlobalState from './components/feature-flag/context';
+import FeatureFlags from './components/feature-flag/context'
 
 function App() {
   return (
@@ -30,12 +32,14 @@ function App() {
       {/* <TreeView menus={menus} /> */}
       {/* <QRCodeGenerator /> */}
       {/* <LightDarkMode /> */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <TabTest /> */}
       {/* <ModalTest /> */}
       {/* <GithubProfileFinder/>  */}
       {/* <Suggestions/> */}
       {/* <TicTacToe /> */}
+      <FeatureFlagGlobalState> <FeatureFlags/> </FeatureFlagGlobalState>
+      
     </div>
   );
 }
