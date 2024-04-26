@@ -18,6 +18,7 @@ import TicTacToe from './components/tic-tact-toe';
 import FeatureFlagGlobalState from './components/feature-flag/context';
 import FeatureFlags from './components/feature-flag/context'
 import UseFetchHookTest from './components/use-fetch/test';
+import Weather from './components/weather';
 
 function App() {
   return (
@@ -42,7 +43,8 @@ function App() {
       {/* <FeatureFlagGlobalState>
         <FeatureFlags />
       </FeatureFlagGlobalState>    */}
-      <UseFetchHookTest/>
+      {/* <UseFetchHookTest/> */}
+<Weather />
 
     </div>
   );
